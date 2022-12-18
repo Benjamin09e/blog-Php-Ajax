@@ -49,11 +49,19 @@ h3 {
 .card-body {
   border: 1px solid black;
   border-radius: 10px;
+  background-color: gray;
+}
+
+.body-picture img {
+  width: 100%;
+  padding: 10px;
 }
 
 .content-card {
   display: flex;
   justify-content: space-between;
+  padding: 8px;
+  width: 46%;
 }
 
 .card-col {
@@ -62,33 +70,38 @@ h3 {
 
 .cards {
   display: grid;
-  grid-template-columns: auto auto auto;
-  gap: 20px;
-  margin-top: 48px;
+  grid-template-columns: auto;
   width: 70%;
-  margin-left: auto;
-  margin-right: auto;
+  margin: auto;
+  gap: 20px;
 }
 
 .connexion {
-  height: 82vh;
-  width: 60%;
+  height: 42vh;
+  width: 67%;
   display: flex;
   align-items: center;
   margin: auto;
   justify-content: center;
   flex-direction: column;
-  padding: 30px;
+  padding: 28px;
 }
 
 .flex-connexion {
-  background-color: aqua;
-  border-radius: 23px;
+  background-color: gray;
   display: flex;
   justify-content: center;
   flex-direction: column;
   width: 80%;
-  padding: 28px;
+  padding: 24px;
+}
+
+#scroller {
+  width: 80%;
+  height: 70%;
+  overflow-y: scroll;
+  scrollbar-color: rebeccapurple green;
+  scrollbar-width: thin;
 }
 
 .group {
@@ -128,7 +141,7 @@ h3 {
 /*---------- Footer----------- */
 
 footer {
-  background-color: blue;
+  background-color:#5990bf;
   width: 100%;
   height: 8vh;
   text-align: center;

@@ -49,6 +49,13 @@ h3 {
 .card-body {
   border: 1px solid black;
   border-radius: 10px;
+  background-color: gray;
+  padding: 7px;
+}
+
+.body-picture img {
+  width: 100%;
+  padding: 10px;
 }
 
 .content-card {
@@ -102,7 +109,7 @@ h3 {
 }
 
 footer {
-  background-color: blue;
+  background-color: #5990bf;
   width: 100%;
   height: 8vh;
   text-align: center;
